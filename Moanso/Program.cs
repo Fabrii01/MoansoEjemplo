@@ -6,19 +6,7 @@ class Program
     {
         
         Console.Write("Ingrese su peso en kilogramos: ");
-        double peso = Convert.ToDouble(Console.ReadLine());
-
-        Console.Write("Ingrese su altura en metros: ");
-        double altura = Convert.ToDouble(Console.ReadLine());
-
-        
-        double imc = peso / (altura * altura);
-
-       
-        Console.WriteLine($"\nSu IMC es: {imc:F2}");
-
-       
-        if (imc < 18.5)
+        double pesasdasdsadsa
         {
             Console.WriteLine("Clasificación: Bajo peso");
         }
