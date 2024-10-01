@@ -4,20 +4,20 @@ class Program
 {
     static void Main()
     {
-        // Solicitar peso y altura
+        
         Console.Write("Ingrese su peso en kilogramos: ");
         double peso = Convert.ToDouble(Console.ReadLine());
 
         Console.Write("Ingrese su altura en metros: ");
         double altura = Convert.ToDouble(Console.ReadLine());
 
-        // Calcular el IMC
+        
         double imc = peso / (altura * altura);
 
-        // Mostrar el resultado del IMC
+       
         Console.WriteLine($"\nSu IMC es: {imc:F2}");
 
-        // Clasificar el IMC según las categorías estándar
+       
         if (imc < 18.5)
         {
             Console.WriteLine("Clasificación: Bajo peso");
