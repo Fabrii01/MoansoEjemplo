@@ -5,7 +5,7 @@ class Program
     static void Main()
     {
        //HOLA SOY KEVIN
-       //Hola soy Xavier
+       //Hola soy Xavier.
         Console.Write("Ingrese su peso en kilogramos: ");
         double peso = Convert.ToDouble(Console.ReadLine());
 
