@@ -14,10 +14,10 @@ class Program
         
         double imc = peso / (altura * altura);
 
-       //hola
+      
         Console.WriteLine($"\nSu IMC es: {imc:F2}");
 
-       //hola
+       //Calcular IMC
         if (imc < 18.5)
         {
             Console.WriteLine("Clasificación: Bajo peso");
