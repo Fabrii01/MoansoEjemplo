@@ -25,7 +25,7 @@ class Program
         }
         else if (imc >= 18.5 && imc < 24.9)
         {
-            Console.WriteLine("Clasificación: Peso normal");
+            Console.WriteLine("Clasificación: Peso Correcto"); //Jz
         }
         else if (imc >= 25 && imc < 29.9)
         {
