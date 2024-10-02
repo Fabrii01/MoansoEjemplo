@@ -14,7 +14,7 @@ class Program
         
         double imc = peso / (altura * altura);
 
-       
+       //hola
         Console.WriteLine($"\nSu IMC es: {imc:F2}");
 
        //hola
